@@ -1,0 +1,2369 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        .first {
+            width: 100%;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            background-color: rgb(39, 39, 137);
+            line-height: 50px;
+        }
+        
+        .second {
+            width: 100%;
+            color: black;
+            background-color: rgb(225, 225, 225);
+            display: flex;
+            border: none;
+            line-height: 20px;
+            border-bottom: 1px solid rgb(172, 172, 172);
+        }
+        
+        .sec {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .left {
+            width: 33.33%;
+            padding: 7px;
+            line-height: 25px;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+        
+        .left ul li {
+            color: black;
+            font-size: 20px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+        
+        .center {
+            margin-top: 13px;
+            margin-left: 5px;
+            width: 33.33%;
+            font-size: 20px;
+        }
+        
+        .right {
+            width: 33.33%;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        .right ul li {
+            margin-left: 18px;
+            margin-right: 10px;
+            display: inline-block;
+            font-weight: bolder;
+        }
+        
+        .eng {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .select {
+            font-size: 18px;
+            border: none;
+            color: black;
+            background-color: transparent;
+        }
+        
+        .select1 {
+            font-size: 18px;
+            border: none;
+            color: black;
+            background-color: transparent;
+            width: 100px;
+            margin-top: -7px;
+        }
+        
+        .trans {
+            background-color: transparent;
+        }
+        
+        .section {
+            width: 90%;
+            margin: auto;
+            display: flex;
+        }
+        
+        .third {
+            width: 100%;
+            color: black;
+            background-color: rgb(237, 237, 237);
+            height: 70px;
+            display: flex;
+        }
+        
+        .th2 {
+            height: 50px;
+            width: 150px;
+        }
+        
+        .slog {
+            margin-left: 20%;
+            line-height: 40px;
+            color: gray;
+        }
+        
+        .th4 {
+            color: black;
+            background-color: rgb(237, 237, 237);
+            padding: 5px;
+            vertical-align: middle;
+            margin-top: 6px;
+            margin-left: 15px;
+            padding: 5px;
+        }
+        
+        .loc {
+            height: 50px;
+            width: 150px;
+            border: 1px solid rgb(121, 121, 121);
+            border-radius: 5px;
+            background-color: white;
+            font-size: 15px;
+        }
+        
+        .loc2 {
+            color: gray;
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        
+        .sel {
+            border: none;
+            font-size: 10px;
+            margin-left: 5px;
+            font-weight: bolder;
+            margin-top: 8px;
+            color: rgb(47, 47, 143);
+        }
+        
+        .sea {
+            color: gray;
+            background-color: rgb(223, 223, 223);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            height: 50px;
+            margin-left: 15px;
+            margin-top: 7px;
+            width: 75%;
+            display: flex;
+        }
+        
+        .th5 {
+            border: none;
+            background-color: transparent;
+            color: gray;
+            height: 80%;
+            width: 100%;
+            outline: none;
+            margin-top: 5px;
+            font-size: 20px;
+        }
+        
+        .a {
+            display: block;
+            width: 100%;
+            font-size: 11px;
+        }
+        
+        .left {
+            margin-top: 2px;
+        }
+        
+        .user {
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            border: 1px solid rgb(74, 74, 74);
+            padding: 9px;
+            font-size: 20px;
+        }
+        
+        .u1 {
+            margin-left: 50px;
+            margin-top: 12px;
+        }
+        
+        .dol {
+            color: rgb(56, 56, 167);
+            font-size: 25px;
+            font-weight: bolder;
+            margin-top: 18px;
+            margin-left: 50px;
+        }
+        
+        .cart {
+            border: 1px solid rgb(188, 0, 0);
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            padding: 8px;
+            font-size: 23px;
+            background-color: rgb(233, 192, 192);
+            margin-left: 50px;
+            margin-top: 12px;
+        }
+        
+        .thright {
+            width: 25%;
+            display: flex;
+        }
+        
+        .four {
+            width: 100%;
+            background-color: rgb(226, 223, 223);
+            color: black;
+            height: 73px;
+            font-size: 20px;
+            display: flex;
+            padding: 15px;
+        }
+        
+        .all {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            font-size: 15px;
+            color: white;
+            line-height: 30px;
+            margin-top: 18px;
+        }
+        
+        .sel1 {
+            width: 15%;
+            border: none;
+            margin-left: 5px;
+            font-weight: bolder;
+            border-radius: 25px;
+            background-color: rgb(43, 185, 236);
+            color: white;
+            text-align: center;
+            height: 50px;
+            margin-top: -4px;
+        }
+        
+        .fo2 {
+            width: 85%;
+            color: black;
+            display: inline-block;
+        }
+        
+        .fo2 ul li {
+            color: black;
+            font-size: 25px;
+        }
+        
+        .home {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        .pht {
+            height: 450px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+        }
+        
+        .exclu {
+            position: relative;
+            display: grid;
+            margin-left: 12%;
+        }
+        
+        .kind {
+            font-size: 50px;
+            font-weight: bolder;
+            color: black;
+            line-height: 49px;
+        }
+        
+        .only {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(114, 114, 114);
+        }
+        
+        .btn {
+            margin-top: 24px;
+            height: 50px;
+            width: 200px;
+            font-weight: bolder;
+            padding: 5px;
+            font-size: 25px;
+            border: none;
+            border-radius: 25px;
+            background-color: rgb(68, 201, 222);
+            color: white;
+            text-align: center;
+        }
+        
+        .shopbtn {
+            margin-top: 25px;
+            height: 25px;
+            width: 100px;
+            font-weight: bolder;
+            padding: 3px;
+            font-size: 15px;
+            border: none;
+            border-radius: 12.5px;
+            background-color: rgb(51, 61, 237);
+            color: white;
+            text-align: center;
+            margin-left: 20px;
+        }
+        
+        .shopbtn1 {
+            margin-top: 25px;
+            height: 25px;
+            width: 100px;
+            font-weight: bolder;
+            padding: 3px;
+            font-size: 15px;
+            border: none;
+            border-radius: 12.5px;
+            background-color: rgb(227, 47, 47);
+            color: white;
+            text-align: center;
+            margin-left: 20px;
+        }
+        
+        .link {
+            text-decoration: none;
+        }
+        
+        .btn1 {
+            height: 45px;
+            width: 150px;
+            font-weight: bolder;
+            padding: 0px;
+            font-size: 25px;
+            border: 2px solid gray;
+            border-radius: 25px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(177, 177, 177);
+            text-align: center;
+            width: 15%;
+        }
+        
+        .becolor {
+            color: black;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        
+        .donot {
+            color: gray;
+            font-size: 15px;
+        }
+        
+        .best {
+            width: 85%;
+        }
+        
+        .bestseller {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 60px;
+            display: flex;
+        }
+        
+        .twopic {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+            display: flex;
+        }
+        
+        .pic1 {
+            width: 35%;
+            height: 40%;
+            border: none;
+            border-radius: 10px;
+            position: absolute;
+        }
+        
+        .pic2 {
+            width: 35%;
+            height: 40%;
+            border: none;
+            border-radius: 10px;
+            position: absolute;
+        }
+        
+        .pi1 {
+            width: 50%;
+            height: 200px;
+        }
+        
+        .pi2 {
+            width: 50%;
+            height: 250px;
+            margin-left: 15px;
+        }
+        
+        .nodec {
+            text-decoration: none;
+        }
+        
+        .arrow {
+            margin-top: 7px;
+        }
+        
+        .price {
+            color: rgb(193, 48, 48);
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        
+        .offer {
+            margin-top: 80px;
+            font-size: 13px;
+            color: gray;
+        }
+        
+        .offgreen {
+            color: rgb(31, 163, 31);
+            border: none;
+            border-radius: 10px;
+            height: 30px;
+            width: 50px;
+            font-size: 15px;
+            margin-left: 10px;
+            background-image: linear-gradient(to right, rgb(111, 221, 111), transparent);
+        }
+        
+        .pht1 {
+            height: 450px;
+            width: 100%;
+            background-image: url(grocery.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .imgup {
+            margin-top: 0px;
+        }
+        
+        .main1 {
+            display: block;
+            width: 100%;
+        }
+        
+        .mainpro {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            border: 1px solid gray;
+            border-radius: 5px;
+            height: auto;
+            background-color: white;
+            margin-top: 0px;
+            margin-bottom: 40px;
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .bevarage {
+            width: 20%;
+            height: 390px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            border: none;
+            border-right: 1px solid gray;
+        }
+        
+        .img {
+            width: 80%;
+            height: 300px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .subimg {
+            width: 80%;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .grid {
+            display: grid;
+            width: 20%;
+            border: none;
+            border-right: 1px solid gray;
+        }
+        
+        .bold {
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: center;
+            color: black;
+            margin-top: 5px;
+        }
+        
+        .item {
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            color: gray;
+        }
+        
+        .bold1 {
+            font-size: 18px;
+            font-weight: bolder;
+            text-align: center;
+            color: black;
+            margin-top: 5px;
+        }
+        
+        .item1 {
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+            color: gray;
+        }
+        
+        .sub {
+            width: 85%;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+            border: none;
+            display: flex;
+        }
+        
+        .sub1 {
+            width: 85%;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+            display: flex;
+            border: none;
+        }
+        
+        .flex {
+            width: 50%;
+            margin-top: 20px;
+            margin-left: 10px;
+            border: none;
+            display: grid;
+        }
+        
+        .borderbottom {
+            height: 340px;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        
+        .borderbottom8 {
+            height: 340px;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        
+        .borderbottom1 {
+            height: 100%;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        
+        .deal {
+            width: 70%;
+            height: 700px;
+            margin-left: 15%;
+            margin-right: 15%;
+            display: flex;
+        }
+        
+        .choba {
+            width: 40%;
+            border: 2px solid red;
+            border-radius: 8px;
+            height: 100%;
+        }
+        
+        .deals {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: rgb(32, 32, 105);
+            font-size: 20px;
+        }
+        
+        .time {
+            color: white;
+            background-color: rgb(232, 68, 68);
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 8px;
+        }
+        
+        .timealign {
+            display: flex;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        
+        .mar {
+            margin-top: -8px;
+            font-size: 40px;
+        }
+        
+        .remain {
+            margin-left: 20px;
+            margin-top: 10px;
+            color: gray;
+            font-size: 15px;
+        }
+        
+        .chobani {
+            background-image: url(chobani.png);
+            height: 350px;
+            margin-left: 20px;
+            background-size: cover;
+        }
+        
+        .red {
+            color: rgb(227, 48, 48);
+            font-size: 20px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .red1 {
+            color: rgb(227, 48, 48);
+            font-size: 20px;
+            margin-left: 15px;
+            margin-top: -2px;
+        }
+        
+        .gray {
+            color: gray;
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        
+        .gray1 {
+            color: gray;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        
+        .chocolor {
+            color: black;
+            margin-left: 20px;
+            font-size: 25px;
+            margin-top: 15px;
+        }
+        
+        .green {
+            color: rgb(60, 203, 60);
+        }
+        
+        .green1 {
+            color: rgb(58, 231, 58);
+            margin-left: 15px;
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        
+        .green9 {
+            color: rgb(58, 231, 58);
+            margin-left: 15px;
+            font-size: 10px;
+            margin-top: 7px;
+        }
+        
+        .green2 {
+            color: rgb(58, 231, 58);
+            margin-left: 15px;
+            font-size: 10px;
+            margin-top: 27px;
+        }
+        
+        .green3 {
+            color: rgb(58, 231, 58);
+            margin-left: 15px;
+            font-size: 10px;
+            margin-top: 7px;
+        }
+        
+        .green4 {
+            color: rgb(58, 231, 58);
+            margin-left: 15px;
+            font-size: 10px;
+            margin-top: 27px;
+        }
+        
+        .green7 {
+            color: rgb(58, 231, 58);
+            margin-left: 15px;
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        
+        .stock {
+            margin-left: 20px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        
+        .gray1 {
+            color: gray;
+            font-size: 15px;
+        }
+        
+        .star {
+            color: rgb(224, 224, 59);
+        }
+        
+        .stargray {
+            color: rgb(199, 199, 196);
+        }
+        
+        .star1 {
+            font-size: 15px;
+            padding: 20px;
+        }
+        
+        .star2 {
+            font-size: 10px;
+            padding: 13px;
+        }
+        
+        .available {
+            text-align: end;
+        }
+        
+        .blue {
+            color: rgb(43, 43, 146);
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        
+        .allnatural {
+            width: 60%;
+            height: 700px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin-left: 20px;
+            display: flex;
+        }
+        
+        .allnatural8 {
+            width: 70%;
+            height: 700px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin-left: 15%;
+            margin-right: 15%;
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .twoupdown {
+            width: 33.33%;
+            height: 100%;
+            display: grid;
+            border: none;
+            border-right: 1px solid gray;
+        }
+        
+        .twoupdown8 {
+            width: 20%;
+            height: 100%;
+            display: grid;
+            border: none;
+            border-right: 1px solid gray;
+        }
+        
+        .grid1 {
+            width: 100%;
+            height: 50%;
+        }
+        
+        .off {
+            color: white;
+            background-color: rgb(78, 200, 240);
+            height: 15px;
+            width: 40px;
+            font-size: 10px;
+            text-align: center;
+            padding: 2.5px;
+            border-radius: 4px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .subimg1 {
+            width: 70%;
+            height: 150px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        
+        .subimg1 {
+            width: 70%;
+            height: 150px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        
+        .allcolor {
+            color: black;
+            margin-left: 15px;
+            font-size: 17px;
+            margin-top: 15px;
+            font-weight: bolder;
+        }
+        
+        .allcolor7 {
+            color: black;
+            margin-left: 15px;
+            font-size: 17px;
+            margin-top: 10px;
+            font-weight: bolder;
+        }
+        
+        .savean {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            color: black;
+            margin-top: 25px;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 20px;
+            height: 60px;
+            background-color: bisque;
+            border-radius: 8px;
+            padding: 22px;
+        }
+        
+        .allcolor8 {
+            color: black;
+            margin-left: 15px;
+            font-size: 17px;
+            margin-top: 30px;
+            font-weight: bolder;
+        }
+        
+        .allcolor1 {
+            color: black;
+            margin-left: 15px;
+            font-size: 17px;
+            margin-top: 15px;
+            font-weight: bolder;
+        }
+        
+        .star7 {
+            font-size: 10px;
+            margin-left: 14px;
+        }
+        
+        .allcolor3 {
+            color: black;
+            margin-left: 15px;
+            font-size: 17px;
+            margin-top: 15px;
+            font-weight: bolder;
+        }
+        
+        .week {
+            margin-left: 25px;
+            color: rgb(233, 52, 52);
+            margin-top: 60px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        
+        .cookie {
+            margin-left: 25px;
+            color: rgb(0, 0, 0);
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        
+        .bacogray {
+            margin-left: 25px;
+            color: gray;
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        
+        .imgrel {
+            position: relative;
+            display: grid;
+        }
+        
+        .allpro {
+            width: 70%;
+            height: 450px;
+            margin-left: 15%;
+            margin-right: 15%;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin-top: 30px;
+            display: flex;
+        }
+        
+        .subpro {
+            width: 20%;
+            height: 100%;
+            display: grid;
+            border: none;
+            border-right: 1px solid gray;
+        }
+        
+        .subpro1 {
+            width: 20%;
+            height: 100%;
+            display: grid;
+            border: none;
+        }
+        
+        .subimg {
+            width: 80%;
+            margin-right: 10%;
+            margin-left: 10%;
+            height: 130px;
+        }
+        
+        .subimg7 {
+            width: 80%;
+            margin-right: 10%;
+            margin-left: 10%;
+            height: 200px;
+        }
+        
+        .subimg8 {
+            width: 80%;
+            margin-right: 10%;
+            margin-left: 10%;
+            height: 180px;
+        }
+        
+        .btn7 {
+            width: 80%;
+            height: 30px;
+            margin-top: 5px;
+            margin-left: 10%;
+            font-size: 15px;
+            text-align: center;
+            font-weight: bolder;
+            border: none;
+            border-radius: 15px;
+            margin-right: 10%;
+            box-shadow: 2px 2px 2px;
+            color: black;
+            background-color: rgb(251, 255, 0);
+        }
+        
+        .btn9 {
+            width: 100px;
+            height: 30px;
+            margin-top: 15px;
+            margin-left: 20px;
+            font-size: 15px;
+            text-align: center;
+            font-weight: bolder;
+            border: none;
+            border-radius: 15px;
+            margin-right: 20px;
+            box-shadow: 2px 2px 2px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(171, 168, 168);
+        }
+        
+        .letter {
+            margin-top: 20px;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            display: flex;
+        }
+        
+        .blog7 {
+            margin-top: 100px;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            display: flex;
+            position: relative;
+        }
+        
+        .let {
+            width: 344.48px;
+            height: 250px;
+            margin: 5px;
+            border: none;
+            border-radius: 8px;
+        }
+        
+        .wri {
+            margin-top: 10px;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            display: flex;
+        }
+        
+        .wri1 {
+            width: 33.33%;
+            display: grid;
+        }
+        
+        .tipsgray {
+            font-size: 15px;
+            color: gray;
+            margin-left: 5px;
+            font-weight: bolder;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .tipsblack {
+            font-size: 20px;
+            color: black;
+            margin-left: 5px;
+            margin-top: 7px;
+            font-weight: bolder;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .graytime {
+            font-size: 15px;
+            color: gray;
+            margin-left: 5px;
+            margin-top: 7px;
+            font-weight: bolder;
+        }
+        
+        .time1 {
+            color: black;
+            font-weight: bolder;
+        }
+        
+        .position1 {
+            width: 33.33%;
+            position: relative;
+            margin: 5px;
+        }
+        
+        .blogl {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 7px;
+            position: absolute;
+        }
+        
+        .blog2 {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 7px;
+            position: absolute;
+        }
+        
+        .blog3 {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 7px;
+            position: absolute;
+        }
+        
+        .weekend {
+            position: relative;
+            display: grid;
+            width: 100%;
+        }
+        
+        .eat {
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 15px;
+            color: gray;
+            font-weight: bolder;
+        }
+        
+        .blackbold {
+            margin-left: 20px;
+            margin-top: 17px;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        
+        .week1 {
+            margin-left: 20px;
+            margin-top: 30px;
+            color: rgb(66, 211, 66);
+            font-size: 13px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+        
+        .newsletter {
+            width: 100%;
+            height: 353px;
+            margin-top: 40px;
+            background-color: rgb(33, 33, 115);
+            display: flex;
+        }
+        
+        .join {
+            width: 60%;
+            margin-left: 100px;
+        }
+        
+        .discount {
+            color: white;
+            margin-top: 50px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .discount1 {
+            color: white;
+            margin-top: 10px;
+            font-size: 30px;
+            font-weight: bolder;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .discount2 {
+            color: rgb(188, 188, 188);
+            margin-top: 10px;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .btnemail {
+            width: 55%;
+            height: 50px;
+            margin-top: 30px;
+            border: none;
+            border-radius: 3px;
+            background-color: white;
+            color: gray;
+            display: flex;
+        }
+        
+        .btnemail1 {
+            width: 60%;
+            margin-left: 30px;
+            outline: none;
+            color: gray;
+            margin-top: 18px;
+            border: none;
+            background-color: transparent;
+        }
+        
+        .btnemail2 {
+            width: 100%;
+            height: 45px;
+            background-color: rgb(7, 22, 117);
+            margin-left: 73px;
+            font-size: 15px;
+            margin-top: 2.5px;
+            text-align: center;
+            font-weight: bolder;
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        .email {
+            color: gray;
+            margin-left: 20px;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        
+        .join1 {
+            width: 80%;
+            height: 100%;
+        }
+        
+         ::placeholder {
+            color: gray;
+        }
+        
+        .everyday {
+            width: 70%;
+            height: 100px;
+            margin-left: 15%;
+            margin-right: 15%;
+            color: black;
+            font-weight: bolder;
+            font-size: 15px;
+            border: none;
+            border-bottom: 1px solid rgb(190, 190, 190);
+            display: flex;
+        }
+        
+        .everyday1 {
+            width: 25%;
+            height: 15px;
+            margin-top: 45px;
+            margin-left: 10px;
+            border: none;
+            border-right: 1px solid rgb(187, 187, 187);
+        }
+        
+        .everyday2 {
+            width: 25%;
+            height: 15px;
+            margin-top: 45px;
+            margin-left: 10px;
+        }
+        
+        .backcol {
+            margin-top: 20px;
+            background-color: rgb(255, 255, 185);
+        }
+        
+        .fruit {
+            width: 68%;
+            margin-left: 16%;
+            margin-right: 16%;
+            color: black;
+            display: flex;
+        }
+        
+        .fru1 {
+            width: 20%;
+            margin-top: 50px;
+            font-size: 15px;
+            color: black;
+            display: grid;
+            margin-bottom: 30px;
+        }
+        
+        .fru2 {
+            font-size: 12px;
+            margin-bottom: 18px;
+            font-weight: bolder;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        
+        .fru3 {
+            font-size: 15px;
+            color: gray;
+            padding: 7px;
+        }
+        
+        .contact {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            height: 100px;
+            padding: 20px;
+            color: black;
+            background-color: white;
+            border: none;
+            border-bottom: 1px soild gray;
+            display: flex;
+        }
+        
+        .phoneicon {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+            margin-top: 11px;
+            border: 1px solid rgb(196, 196, 196);
+            border-radius: 20px;
+            padding: 10px;
+        }
+        
+        .num {
+            width: 20%;
+            color: black;
+        }
+    </style>
+
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+</head>
+
+<body>
+    <div class="main1">
+        <div class="first">
+            Due to the <b> COVID 19 </b>epindenic, orders may be processed with a slight delay
+        </div>
+
+        <div class="second">
+            <div class="left">
+                <ul>
+                    <li>About Us</li>
+                    <li>My account</li>
+                    <li>Wishlist</li>
+                    <li>Order Tracking</li>
+                </ul>
+            </div>
+
+
+            <div class="center">
+                <i class="fa-solid fa-hand"></i> <span class="sec"> 100% Secure delivery without contacting the courier </span>
+            </div>
+
+            <div class="right">
+                Need help? Call Us: <span style="color: rgb(57, 189, 189);"><b>+0020 500</b></span> <span class="eng"> <select class="select"> <option> English </option> <option> Hindi </option> <option> Gujarati </option></select></span> <span class="eng"> <select class="select"> <option> USD</option> <option>Rupee</option></select></span>
+            </div>
+        </div>
+
+
+        <div class="third">
+            <div class="section">
+
+                <div>
+                    <img src="bacola-logo-1.png" alt="" class="th2">
+                    <span class="a">Online Grocery Shopping Center</span>
+                </div>
+
+                <div class="th4 loc"><span class="loc2">Your Location</span><select class="sel"> <option  hidden style="color: rgb(42, 42, 168);">Select a Location</option> <option value="">Surat</option> <option value="">Ahemdabad</option></select></div>
+
+                <div class="sea">
+                    <input type="search" class="th5" placeholder="Search for products..">
+                    <div><i class="fa-solid fa-magnifying-glass left"></i></div>
+                </div>
+
+                <div class="thright">
+                    <div class="u1">
+                        <a href=""><i class="fa-regular fa-user user"></i></a>
+                    </div>
+                    <div class="dol">
+                        $0.00
+                    </div>
+                    <div class="cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="four">
+            <div class="sel1">
+                <i class="fa-solid fa-bars"></i>
+                <select class="all">
+                <option>ALL CATEGORIES</option>
+                </select>
+            </div>
+
+            <div class="fo2">
+                <div class="home">
+                    <div><select class="select1">
+                <option hidden>HOME</option>
+                <option>VEG.</option>
+                <option>GROCERY</option>
+            </select>
+                    </div>
+                    <div>
+                        <select class="select1"> 
+                    <option hidden>SHOP</option>
+                    <option>FRESH FRUIT</option>
+                    <option>NON-SEASONAL FRUIT</option>
+                </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="imgup">
+        <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function($) {
+
+                var jssor_1_options = {
+                    $AutoPlay: 1,
+                    $Idle: 2000,
+                    $ArrowNavigatorOptions: {
+                        $Class: $JssorArrowNavigator$
+                    },
+                    $BulletNavigatorOptions: {
+                        $Class: $JssorBulletNavigator$
+                    }
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*#region responsive code begin*/
+
+                var MAX_WIDTH = 3000;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+
+                    if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                    } else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+
+                ScaleSlider();
+
+                $(window).bind("load", ScaleSlider);
+                $(window).bind("resize", ScaleSlider);
+                $(window).bind("orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            });
+        </script>
+        <style>
+            /* jssor slider loading skin spin css */
+            
+            .jssorl-009-spin img {
+                animation-name: jssorl-009-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+            
+            @keyframes jssorl-009-spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            
+            .jssorb052 .i {
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .jssorb052 .i .b {
+                fill: #000;
+                fill-opacity: 0.3;
+            }
+            
+            .jssorb052 .i:hover .b {
+                fill-opacity: .7;
+            }
+            
+            .jssorb052 .iav .b {
+                fill-opacity: 1;
+            }
+            
+            .jssorb052 .i.idn {
+                opacity: .3;
+            }
+            
+            .jssora053 {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .jssora053 .a {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 640;
+                stroke-miterlimit: 10;
+            }
+            
+            .jssora053:hover {
+                opacity: .8;
+            }
+            
+            .jssora053.jssora053dn {
+                opacity: .5;
+            }
+            
+            .jssora053.jssora053ds {
+                opacity: .3;
+                pointer-events: none;
+            }
+        </style>
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1920px;height:600px;overflow:hidden;visibility:hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+            </div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width: 1920px;height:600px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div data-p="170.00">
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div>
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div>
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div>
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div>
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div>
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div data-b="0">
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div data-p="170.00">
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div data-p="170.00">
+                    <img data-u="image" src="veg.jpeg" />
+                </div>
+                <div style="background-color:#ff7c28;">
+                    <div style="position:absolute;top:50px;left:50px;width:450px;height:62px;z-index:0;font-size:16px;color:#000000;line-height:24px;text-align:left;padding:5px;box-sizing:border-box;">Photos in this slider are to demostrate jssor slider,<br /> which are not licensed for any other purpose.
+                    </div>
+                </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora053" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+            </div>
+            <div data-u="arrowright" class="jssora053" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+            </div>
+
+            <div class="exclu">
+                <div class="offer">EXECLUSIVE OFFER <span class="offgreen">-20% off</span> </div>
+
+                <div><span class="kind">A different kind of <br> grocery store</span></div>
+
+                <div class="only">Only this week. Don't miss.. </div>
+
+                <div class="only">from <span class="price">$7.99</span></div>
+
+                <div class="btn">
+                    <a href="all nature.png" target="_blank" class="nodec">
+                        Shop Now <i class="fa-solid fa-arrow-right-long arrow"></a></i>
+                </div>
+            </div>
+        </div>
+
+        <h1 style="text-align: center;margin-top: 20px;">OUR PRODUCTS:</h1>
+
+        <div class="mainpro">
+            <div class="bevarage"> <img src="bevarages.png" alt="" class="img"> <br>
+                <div class="bold">Beverages</div> <br>
+                <div class="item"> 11 items </div>
+            </div>
+
+            <div class="grid">
+                <div class="borderbottom1">
+                    <div class="sub1">
+                        <div><img src="bis.png" class="subimg"></div>
+                        <div class="flex">
+                            <div class="bold1">Biscuits & Snacks</div>
+                            <div class="item1">6 items</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <div><img src="fru.jpg" class="subimg"></div>
+                    <div class="flex">
+                        <div class="bold1">Fruits & Vegetable</div>
+                        <div class="item1">6 items</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="borderbottom1">
+                    <div class="sub1">
+                        <div><img src="breads.png" class="subimg"></div>
+                        <div class="flex">
+                            <div class="bold1">Breads & Bakery</div>
+                            <div class="item1">6 items</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <div><img src="gro.jfif" class="subimg"></div>
+                    <div class="flex">
+                        <div class="bold1">Grocery & Staples</div>
+                        <div class="item1">7 items</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="borderbottom1">
+                    <div class="sub1">
+                        <div><img src="break.jfif" class="subimg"></div>
+                        <div class="flex">
+                            <div class="bold1">Breakfast & Dairy</div>
+                            <div class="item1">8 items</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <div><img src="household.png.png" class="subimg"></div>
+                    <div class="flex">
+                        <div class="bold1">Household <br> Needs</div>
+                        <div class="item1">1 items</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="borderbottom1">
+                    <div class="sub1">
+                        <div><img src="frozen.png" class="subimg"></div>
+                        <div class="flex">
+                            <div class="bold1">Frozen Foods</div>
+                            <div class="item1">7 items</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <div><img src="seafood.png" class="subimg"></div>
+                    <div class="flex">
+                        <div class="bold1">Meats & <br> Seafood</div>
+                        <div class="item1">5 items</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="deal">
+            <div class="choba">
+                <div class="deals">Deals of the <b> week! </b></div>
+
+                <div class="timealign">
+                    <div class="time">16</div><span class="mar">:</span>
+                    <div class="time">11</div><span class="mar">:</span>
+                    <div class="time">15</div><span class="mar">:</span>
+                    <div class="time">48</div>
+                </div>
+
+                <div class="remain">
+                    Remains util the end of the offer
+                </div>
+
+                <div class="chobani"></div>
+
+                <div>
+                    <span class="gray"><del>$5.49</del></span> <span class="red">$4.49</span>
+                </div>
+                <div class="chocolor"> Chobani Complete Vanilla Greek Yogurt </div>
+
+                <div class="stock"> <span class="gray1"> 1kg </span><span class="green">IN STOCK</span></div>
+
+                <div class="star1"><i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                </div>
+
+                <div class="available gray1">AVAILABLE: <span class="blue">50</span></div>
+            </div>
+
+            <div class="allnatural">
+                <div class="twoupdown">
+                    <div class="grid1">
+                        <div class="borderbottom">
+                            <div class="off">22%</div>
+
+                            <div><img src="all nature.jpg" class="subimg1"></div>
+                            <div class="allcolor"> All Natural Italian-Style Chicken Meatballs </div>
+                            <div class="green2">IN STOCK</div>
+
+                            <div class="star2"><i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                            </div>
+                            <div>
+                                <span class="gray1"><del>$9.35</del></span> <span class="red">$7.25</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="grid1">
+                        <div class="off">0%</div>
+
+                        <div><img src="foster.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Foster Farms Takeout Crispy Classic Buffalo Wings </div>
+                        <div class="green1">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                        </div>
+                        <div class="red1">
+                            $7.25 - $49.99
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="twoupdown">
+                    <div class="grid1">
+                        <div class="borderbottom">
+                            <div class="off">24%</div>
+
+                            <div><img src="sweet.jpg" class="subimg1"></div>
+                            <div class="allcolor1"> Angle's Boomchickapop Sweet & Salty Kettle Corn</div>
+                            <div class="green3">IN STOCK</div>
+
+                            <div class="star2"><i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                            </div>
+                            <div>
+                                <span class="gray1"><del>$4.29</del></span> <span class="red">$3.29</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="grid1">
+                        <div class="off">10%</div>
+
+                        <div><img src="blue.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Blue Diamond Almonds Lightly Salted </div>
+                        <div class="green2">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$9.35</del></span> <span class="red">$7.25</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="twoupdown">
+                    <div class="grid1">
+                        <div class="borderbottom">
+                            <div class="off">19%</div>
+
+                            <div><img src="field.jpg" class="subimg1"></div>
+                            <div class="allcolor"> Field Roast Chao Cheese Creamy Original </div>
+                            <div class="green4">IN STOCK</div>
+
+                            <div class="star2"><i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                            </div>
+                            <div>
+                                <span class="gray1"><del>$24.00</del></span> <span class="red">$19.50</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="grid1">
+                        <div class="off">12%</div>
+
+                        <div><img src="blueberries.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Blueberries - 1 Pint Package</div>
+                        <div class="green2">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star stargray"></i>
+                            <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$4.49</del></span> <span class="red">$3.99</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="twopic">
+            <div class="pi1"> <img src="pic1.jpg" alt="" class="pic1">
+                <div class="imgrel">
+
+                    <div class="week">WEEKEND DISCOUNT 40%</div>
+                    <div class="cookie">Cookie and Ice Cream</div>
+                    <div class="bacogray">Bacola Weekend Discount</div>
+                    <a href="" class="link" target="_blank">
+                        <div class="shopbtn">Shop Now</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pi2"> <img src="cookies.jfif" alt="" class="pic2">
+                <div class="imgrel">
+
+                    <div class="week">WEEKEND DISCOUNT 40%</div>
+                    <div class="cookie">Cookie and Ice Cream</div>
+                    <div class="bacogray">Bacola Weekend Discount</div>
+                    <a href="" class="link" target="_blank">
+                        <div class="shopbtn1">Shop Now</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bestseller">
+
+            <div class="best"><span class="becolor">
+             BEST SELLERS </span><br> <span class="donot">Do not miss the current offers until the end of March.</span></div>
+            <div class="btn1">View All <i class="fa-solid fa-arrow-right-long arrow"></i></div>
+        </div>
+
+        <div class="allpro">
+
+            <div class="subpro">
+                <div class="off">23%</div>
+                <div><img src="all nature.jpg" alt="" class="subimg7"></div>
+                <div class="allcolor7"> All Natural Italian-Style Chicken Meatballs </div>
+                <div class="green7">IN STOCK</div>
+
+                <div class="star7"><i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                </div>
+                <div>
+                    <span class="gray1"><del>$9.35</del></span> <span class="red">$7.25</span>
+                </div>
+                <div>
+                    <input type="submit" value="Add to cart" class="btn7">
+                </div>
+            </div>
+
+            <div class="subpro">
+                <div class="off">24%</div>
+                <div><img src="sweet.jpg" alt="" class="subimg7"></div>
+                <div class="allcolor7"> Angie's Boomchickapop Sweet & Salty Kettle Corn </div>
+                <div class="green7">IN STOCK</div>
+
+                <div class="star7"><i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                </div>
+                <div>
+                    <span class="gray1"><del>$4.29</del></span> <span class="red">$3.29</span>
+                </div>
+                <div>
+                    <input type="submit" value="Add to cart" class="btn7">
+                </div>
+            </div>
+
+            <div class="subpro">
+                <div class="off">19%</div>
+                <div><img src="field.jpg" alt="" class="subimg7"></div>
+                <div class="allcolor7"> Field Roast Chao Cheese Creamy Original </div>
+                <div class="green7">IN STOCK</div>
+
+                <div class="star7"><i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                </div>
+                <div>
+                    <span class="gray1"><del>$24.00</del></span> <span class="red">$19.50</span>
+                </div>
+                <div>
+                    <input type="submit" value="Add to cart" class="btn7">
+                </div>
+            </div>
+
+            <div class="subpro">
+                <div class="off">10%</div>
+                <div><img src="blue.jpg" alt="" class="subimg8"></div>
+                <div class="allcolor8"> Blue Diamond Almonds Lightly Salted </div>
+                <div class="green7">IN STOCK</div>
+
+                <div class="star7"><i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                </div>
+                <div>
+                    <span class="gray1"><del>$11.68</del></span> <span class="red">$10.58</span>
+                </div>
+                <div>
+                    <input type="submit" value="Add to cart" class="btn7">
+                </div>
+            </div>
+
+            <div class="subpro1">
+                <div class="off">29%</div>
+                <div><img src="broccoli.png" alt="" class="subimg7"></div>
+                <div class="allcolor7"> Fresh Organic Broccoli Crowns </div>
+                <div class="green7">IN STOCK</div>
+
+                <div class="star7"><i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                </div>
+                <div>
+                    <span class="gray1"><del>$6.77</del></span> <span class="red">$4.85</span>
+                </div>
+                <div>
+                    <input type="submit" value="Add to cart" class="btn7">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="savean">
+            SAVE AN EXTRA 5 - 10% ON EVERY AUTOSHIP ORDER!
+        </div>
+
+        <div class="allnatural8">
+
+            <div class="twoupdown8">
+                <div class="grid1">
+                    <div class="borderbottom8">
+                        <div class="off">26%</div>
+
+                        <div><img src="Zevia.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Zevia Kidz Strawberry Lemonade zero Calorie.. </div>
+                        <div class="green2">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$7.95</del></span> <span class="red">$5.95</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid1">
+                    <div class="off">38%</div>
+
+                    <div><img src="usda.jpg" class="subimg1"></div>
+                    <div class="allcolor"> USDA Choice Angus Beef Stew Meat </div>
+                    <div class="green1">IN STOCK</div>
+
+                    <div class="star2"><i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                    </div>
+                    <div><span class="gray1"><del>$79.99</del></span> <span class="red">$49.99</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="twoupdown8">
+                <div class="grid1">
+                    <div class="borderbottom8">
+                        <div class="off">40%</div>
+
+                        <div><img src="wheat.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Wheat Thins Original Crackers </div>
+                        <div class="green2">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$5.00</del></span> <span class="red">$3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid1">
+                    <div class="off">31%</div>
+
+                    <div><img src="tropicana.jpg" class="subimg1"></div>
+                    <div class="allcolor"> Tropicana Pineapple Mango Drink </div>
+                    <div class="green1">IN STOCK</div>
+
+                    <div class="star2"><i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                    </div>
+                    <div> <span class="gray1"><del>$3.29</del></span> <span class="red">$2.29</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="twoupdown8">
+                <div class="grid1">
+                    <div class="borderbottom8">
+                        <div class="off">26%</div>
+
+                        <div><img src="werther.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Werther's Original Caramel Hard Caramel Hard Candies </div>
+                        <div class="green9">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$20.00</del></span> <span class="red">$14.97</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid1">
+                    <div class="off">15%</div>
+
+                    <div><img src="organic.jpg" class="subimg1"></div>
+                    <div class="allcolor"> Organic Sweet Lime </div>
+                    <div class="green1">IN STOCK</div>
+
+                    <div class="star2"><i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star stargray"></i>
+                        <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                    </div>
+                    <div> <span class="gray1"><del>$6.99</del></span> <span class="red">$5.99</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="twoupdown8">
+                <div class="grid1">
+                    <div class="borderbottom8">
+                        <div class="off">26%</div>
+
+                        <div><img src="warrior.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Warrior Blend Organic </div>
+                        <div class="green2">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star stargray"></i>
+                            <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$39.00</del></span> <span class="red">$29.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid1">
+                    <div class="off">25%</div>
+
+                    <div><img src="fresh.jpg" class="subimg1"></div>
+                    <div class="allcolor"> Fresh Organic Strawberry </div>
+                    <div class="green1">IN STOCK</div>
+
+                    <div class="star2"><i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                    </div>
+                    <div>
+                        <span class="gray1"><del>$12.00</del></span> <span class="red">$9.00</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="twoupdown8">
+                <div class="grid1">
+                    <div class="borderbottom8">
+                        <div class="off">14%</div>
+
+                        <div><img src="vital.jpg" class="subimg1"></div>
+                        <div class="allcolor"> Vital Farms Pasture-Raised Egg Bites Bacon & Chedder </div>
+                        <div class="green9">IN STOCK</div>
+
+                        <div class="star2"><i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star star"></i>
+                            <i class="fa-solid fa-star stargray"></i> <span class="gray1">1</span>
+                        </div>
+                        <div>
+                            <span class="gray1"><del>$29.00</del></span> <span class="red">$25.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid1">
+                    <div class="off">20%</div>
+
+                    <div><img src="solti.jpg" class="subimg1"></div>
+                    <div class="allcolor"> Sot-ti Coconut Charcoal SuperAde</div>
+                    <div class="green1">IN STOCK</div>
+
+                    <div class="star2"><i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i> <span class="gray1">1</span>
+                    </div>
+                    <div>
+                        <span class="gray1"><del>$4.97</del></span> <span class="red">$3.97</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="letter">
+            <div class="position1">
+                <div><img src="bacola-banner-05.jpg" alt="" class="blogl"></div>
+                <div class="weekend">
+                    <div class="week1">WEEKEND DISCOUNT 20%</div>
+                    <div class="blackbold">Natural Eggs</div>
+                    <div class="eat">Eat one every day</div>
+                    <div> <input type="submit" value="Shop Now" class="btn9"></div>
+                </div>
+            </div>
+
+            <div class="position1">
+                <div><img src="bacola-banner-06.jpg" alt="" class="blog2"> </div>
+                <div class="weekend">
+                    <div class="week1">WEEKEND DISCOUNT 20%</div>
+                    <div class="blackbold">Natural Eggs</div>
+                    <div class="eat">Eat one every day</div>
+                    <div> <input type="submit" value="Shop Now" class="btn9"></div>
+                </div>
+            </div>
+
+            <div class="position1">
+                <div> <img src="bacola-banner-10.jpg" alt="" class="blog3"> </div>
+                <div class="weekend">
+                    <div class="week1">WEEKEND DISCOUNT 20%</div>
+                    <div class="blackbold">Natural Eggs</div>
+                    <div class="eat">Eat one every day</div>
+                    <div> <input type="submit" value="Shop Now" class="btn9"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="blog7">
+            <div><img src="blog-3-370x260.jpg" alt="" class="let"></div>
+            <div><img src="blog-5-370x260.jpg" alt="" class="let"></div>
+            <div><img src="blog-1-370x260.jpg" alt="" class="let"></div>
+        </div>
+
+        <div class="wri">
+            <div class="wri1">
+                <div class="tipsgray">TIPS & TRICKS</div>
+                <div class="tipsblack">But I must explain to you how all this mistaken idea</div>
+                <div class="graytime">3 May 2021 &nbsp;&nbsp;<span class="time1">3 comments</span> &nbsp;&nbsp;<span class="time1"><i class="fa-solid fa-thumbs-up"></i> Bacola</span> </div>
+            </div>
+
+            <div class="wri1">
+                <div class="tipsgray">GROCERY</div>
+                <div class="tipsblack">The Problem With Typesfaces on the Web</div>
+                <div class="graytime">3 May 2021 &nbsp;&nbsp;<span class="time1">3 comments</span> &nbsp;&nbsp;<span class="time1"><i class="fa-solid fa-thumbs-up"></i> Bacola</span> </div>
+            </div>
+
+            <div class="wri1">
+                <div class="tipsgray">GROCERY</div>
+                <div class="tipsblack">English Breakfast Tea With Tasty Donut Desserts</div>
+                <div class="graytime">2 May 2021 &nbsp;&nbsp;<span class="time1">3 comments</span> &nbsp;&nbsp;<span class="time1"><i class="fa-solid fa-thumbs-up"></i> Bacola</span> </div>
+            </div>
+        </div>
+
+        <div class="newsletter">
+            <div class="join">
+                <div class="discount">$20 discount for your first order </div>
+                <div class="discount1">Join our newsletter and get...</div>
+                <div class="discount2">Join our email subscription now get updates <br> on promotions and coupons.</div>
+                <div class="btnemail">
+                    <div>
+                        <i class="fa-regular fa-envelope email"></i>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your email address" class="btnemail1">
+                    </div>
+                    <div><input type="submit" value="Subscribe" class="btnemail2"></div>
+                </div>
+            </div>
+            <div><img src="coupon.png" alt="" class="join1"></div>
+        </div>
+
+        <div class="everyday">
+            <div class="everyday1"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Everyday fresh products</div>
+            <div class="everyday1"><i class="fa-solid fa-truck"></i> &nbsp; Free delivery for order over $70</div>
+            <div class="everyday1"><i class="fa-solid fa-percent"></i> &nbsp; Daily Mega Discounts</div>
+            <div class="everyday2"><i class="fa-solid fa-dollar-sign"></i> &nbsp; Best price on the market</div>
+        </div>
+
+        <div class="backcol">
+            <div class="fruit">
+                <div class="fru1">
+                    <div class="fru2">FRUIT & VEGETABLES</div>
+                    <div class="fru3">Fresh Vegetable</div>
+                    <div class="fru3">Herbs & Seasonings</div>
+                    <div class="fru3">Fresh Fruits</div>
+                    <div class="fru3">Cuts & Sprouts</div>
+                    <div class="fru3">Exotic Fruits & Veggies</div>
+                    <div class="fru3">Packaged Produce</div>
+                    <div class="fru3">Party Trays</div>
+                </div>
+
+                <div class="fru1">
+                    <div class="fru2">BREAKFAST & DAIRY</div>
+                    <div class="fru3">Milk & & Flavoured Milk</div>
+                    <div class="fru3">Butter and Margarine</div>
+                    <div class="fru3">Cheese</div>
+                    <div class="fru3">Eggs Substitues</div>
+                    <div class="fru3">Honey</div>
+                    <div class="fru3">Marmalades</div>
+                    <div class="fru3">Sour Cream and Dips</div>
+                    <div class="fru3">Yogurt</div>
+                </div>
+
+                <div class="fru1">
+                    <div class="fru2">MEAT & SEAFOOD</div>
+                    <div class="fru3">Breakfast Sausage</div>
+                    <div class="fru3">Beef</div>
+                    <div class="fru3">Chickens</div>
+                    <div class="fru3">Sliced Deli Meat</div>
+                    <div class="fru3">Shrimp</div>
+                    <div class="fru3">Wild Caught Fillets</div>
+                    <div class="fru3">Crab and Shellfish</div>
+                    <div class="fru3">Farm Raised Fillets</div>
+                </div>
+
+                <div class="fru1">
+                    <div class="fru2">BEVERAGES</div>
+                    <div class="fru3">Water</div>
+                    <div class="fru3">Sparkling Water</div>
+                    <div class="fru3">Soda & Pop</div>
+                    <div class="fru3">Coffee</div>
+                    <div class="fru3">Milk & Plant-Based Milk</div>
+                    <div class="fru3">Tea & Kombucha</div>
+                    <div class="fru3">Vrink Boxes & Pouches</div>
+                    <div class="fru3">Craft Beer</div>
+                    <div class="fru3">Wine</div>
+                </div>
+
+                <div class="fru1">
+                    <div class="fru2">BREADS & BAKERY</div>
+                    <div class="fru3">Milk & Flavoured Milk</div>
+                    <div class="fru3">Butter and Marganine</div>
+                    <div class="fru3">Cheese</div>
+                    <div class="fru3">Eggs Substitues</div>
+                    <div class="fru3">Honey</div>
+                    <div class="fru3">Maemalades</div>
+                    <div class="fru3">Sour Cream and Dips</div>
+                    <div class="fru3">Yogurt</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="phoneicon"><i class="fa-solid fa-phone-volume"></i></div>
+        </div>
+
+
+
+
+
+</body>
+
+</html>
